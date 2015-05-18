@@ -1,4 +1,6 @@
 # react-data-attributes-mixin
+[![Build Status](https://travis-ci.org/holidayextras/react-data-attributes-mixin.svg)](https://travis-ci.org/holidayextras/react-data-attributes-mixin)
+
 Take data from props and convert it to HTML data-* attributes
 
 ### Example
