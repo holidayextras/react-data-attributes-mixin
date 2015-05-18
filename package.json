@@ -1,0 +1,34 @@
+{
+  "name": "react-data-attributes-mixin",
+  "version": "1.0.0",
+  "description": "Take data from props and convert it to HTML data-* attributes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/eslint/bin/eslint.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/holidayextras/react-data-attributes-mixin.git"
+  },
+  "keywords": [
+    "react",
+    "mixin",
+    "data",
+    "attributes",
+    "mixins"
+  ],
+  "author": "jack.crawford@holidayextras.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holidayextras/react-data-attributes-mixin/issues"
+  },
+  "homepage": "https://github.com/holidayextras/react-data-attributes-mixin",
+  "devDependencies": {
+    "eslint": "^0.21.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "lodash": "^3.8.0"
+  }
+}
