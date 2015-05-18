@@ -1,4 +1,7 @@
-var _ = require('lodash');
+var _ = {
+  mapKeys: require('lodash.mapKeys'),
+  kebabCase: require('lodash.kebabCase')
+};
 
 module.exports = {
   getDataAttributesFromProps: function() {

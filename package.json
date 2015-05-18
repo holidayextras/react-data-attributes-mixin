@@ -29,6 +29,7 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "lodash": "^3.8.0"
+    "lodash.kebabcase": "3.0.1",
+    "lodash.mapkeys": "3.8.0"
   }
 }
