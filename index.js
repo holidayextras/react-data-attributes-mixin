@@ -1,6 +1,6 @@
 var _ = {
-  mapKeys: require('lodash.mapKeys'),
-  kebabCase: require('lodash.kebabCase')
+  mapKeys: require('lodash.mapkeys'),
+  kebabCase: require('lodash.kebabcase')
 };
 
 module.exports = {
