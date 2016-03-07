@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "./node_modules/eslint/bin/eslint.js ."
+    "lint": "make-up test",
+    "ci": "npm run lint && npm test"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
   "homepage": "https://github.com/holidayextras/react-data-attributes-mixin",
   "devDependencies": {
     "eslint": "^0.21.1",
-    "mocha": "^2.2.5"
+    "make-up": "^8.0.0"
   },
   "dependencies": {
     "lodash.kebabcase": "3.0.1",
