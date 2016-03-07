@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/holidayextras/react-data-attributes-mixin",
   "devDependencies": {
-    "eslint": "^0.21.1",
-    "make-up": "^8.0.0"
+    "make-up": "^8.0.0",
+    "mocha": "^2.2.5"
   },
   "dependencies": {
     "lodash.kebabcase": "3.0.1",
